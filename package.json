@@ -1,0 +1,23 @@
+{
+  "name": "@dwcore/dwss",
+  "version": "0.1.1",
+  "description": "Returns the next buffer/object in a stream's readable queue",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@dwcore/dws2": "dwcore/dws2#master",
+    "standard": "^7.1.2",
+    "tape": "^4.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
